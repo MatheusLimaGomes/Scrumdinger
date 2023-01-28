@@ -17,6 +17,7 @@
 		7BF9407929855E0000F6F4BC /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9407829855E0000F6F4BC /* Theme.swift */; };
 		7BF9407B2985605700F6F4BC /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9407A2985605700F6F4BC /* DailyScrum.swift */; };
 		7BF9407E2985628300F6F4BC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9407D2985628300F6F4BC /* CardView.swift */; };
+		7BF940802985687D00F6F4BC /* LableStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9407F2985687D00F6F4BC /* LableStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		7BF9407829855E0000F6F4BC /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		7BF9407A2985605700F6F4BC /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		7BF9407D2985628300F6F4BC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		7BF9407F2985687D00F6F4BC /* LableStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LableStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			children = (
 				7BE5A5FF29849BE6006BC1A6 /* MeetingView.swift */,
 				7BF9407D2985628300F6F4BC /* CardView.swift */,
+				7BF9407F2985687D00F6F4BC /* LableStyle.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 			files = (
 				7BF9407B2985605700F6F4BC /* DailyScrum.swift in Sources */,
 				7BF9407929855E0000F6F4BC /* Theme.swift in Sources */,
+				7BF940802985687D00F6F4BC /* LableStyle.swift in Sources */,
 				7BE5A60029849BE6006BC1A6 /* MeetingView.swift in Sources */,
 				7BE5A5FE29849BE6006BC1A6 /* ScrumdingerApp.swift in Sources */,
 				7BF9407E2985628300F6F4BC /* CardView.swift in Sources */,
