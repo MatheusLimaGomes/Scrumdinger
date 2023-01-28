@@ -19,6 +19,7 @@
 		7BF9407E2985628300F6F4BC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9407D2985628300F6F4BC /* CardView.swift */; };
 		7BF940802985687D00F6F4BC /* LableStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9407F2985687D00F6F4BC /* LableStyle.swift */; };
 		7BF9408229856C3400F6F4BC /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9408129856C3400F6F4BC /* ScrumsView.swift */; };
+		7BF940892985A08C00F6F4BC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF940882985A08C00F6F4BC /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		7BF9407D2985628300F6F4BC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		7BF9407F2985687D00F6F4BC /* LableStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LableStyle.swift; sourceTree = "<group>"; };
 		7BF9408129856C3400F6F4BC /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		7BF940882985A08C00F6F4BC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				7BF9407D2985628300F6F4BC /* CardView.swift */,
 				7BF9408129856C3400F6F4BC /* ScrumsView.swift */,
 				7BF9407F2985687D00F6F4BC /* LableStyle.swift */,
+				7BF940882985A08C00F6F4BC /* DetailView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BF9407B2985605700F6F4BC /* DailyScrum.swift in Sources */,
+				7BF940892985A08C00F6F4BC /* DetailView.swift in Sources */,
 				7BF9408229856C3400F6F4BC /* ScrumsView.swift in Sources */,
 				7BF9407929855E0000F6F4BC /* Theme.swift in Sources */,
 				7BF940802985687D00F6F4BC /* LableStyle.swift in Sources */,
