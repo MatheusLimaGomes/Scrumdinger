@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-import SwiftUI
-
 struct ThemeView: View {
     var theme: Theme
     var body: some View {
@@ -24,7 +22,6 @@ struct ThemeView: View {
 }
 struct ThemeView_Previews: PreviewProvider {
     static var previews: some View {
-        let theme = DailyScrum.sampleData[0].theme
-        ThemeView(theme: theme)
+        ThemeView(theme: .periwinkle)
     }
 }

@@ -22,6 +22,7 @@
 		7BF940892985A08C00F6F4BC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF940882985A08C00F6F4BC /* DetailView.swift */; };
 		7BF9408B2985E1F800F6F4BC /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9408A2985E1F800F6F4BC /* DetailEditView.swift */; };
 		7BF9408D29888B2600F6F4BC /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9408C29888B2600F6F4BC /* ThemeView.swift */; };
+		7BF9408F29888F3C00F6F4BC /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9408E29888F3C00F6F4BC /* ThemePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		7BF940882985A08C00F6F4BC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		7BF9408A2985E1F800F6F4BC /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		7BF9408C29888B2600F6F4BC /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		7BF9408E29888F3C00F6F4BC /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 				7BF940882985A08C00F6F4BC /* DetailView.swift */,
 				7BF9408A2985E1F800F6F4BC /* DetailEditView.swift */,
 				7BF9408C29888B2600F6F4BC /* ThemeView.swift */,
+				7BF9408E29888F3C00F6F4BC /* ThemePicker.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BF9408F29888F3C00F6F4BC /* ThemePicker.swift in Sources */,
 				7BF9407B2985605700F6F4BC /* DailyScrum.swift in Sources */,
 				7BF940892985A08C00F6F4BC /* DetailView.swift in Sources */,
 				7BF9408B2985E1F800F6F4BC /* DetailEditView.swift in Sources */,

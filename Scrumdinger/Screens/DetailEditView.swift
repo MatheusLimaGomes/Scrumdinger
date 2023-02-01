@@ -8,15 +8,15 @@
 import SwiftUI
 
 struct DetailEditView: View {
-    @State private var data = DailyScrum.Data()
+    @Binding var data: DailyScrum.Data
     @State private var newAttendeeName = ""
+    
     var body: some View {
         Form {
             Section(header: Text("Meeting Info")) {
                 TextField("Title", text: $data.title)
                 HStack {
                     Slider(value: $data.lengthInMinutes, in: 5...30, step: 1) {
-                        //The text view won't appear on screen, but VoiceOver uses it to identify the purpose of the slider.
                         Text("Length")
                     }
                     .accessibilityValue("\(Int(data.lengthInMinutes)) minutes")
@@ -24,6 +24,7 @@ struct DetailEditView: View {
                     Text("\(Int(data.lengthInMinutes)) minutes")
                         .accessibilityHidden(true)
                 }
+                ThemePicker(selection: $data.theme)
             }
             Section(header: Text("Attendees")) {
                 ForEach(data.attendees) { attendee in
@@ -33,7 +34,7 @@ struct DetailEditView: View {
                     data.attendees.remove(atOffsets: indices)
                 }
                 HStack {
-                    TextField("New Attendee Name", text: $newAttendeeName)
+                    TextField("New Attendee", text: $newAttendeeName)
                     Button(action: {
                         withAnimation {
                             let attendee = DailyScrum.Attendee(name: newAttendeeName)
@@ -52,6 +53,6 @@ struct DetailEditView: View {
 }
 struct DetailEditView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailEditView()
+        DetailEditView(data: .constant(DailyScrum.sampleData[0].data))
     }
 }
