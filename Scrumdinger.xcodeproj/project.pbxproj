@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B1A4872298DD36700EF509E /* MeetingViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A4871298DD36700EF509E /* MeetingViewHeader.swift */; };
 		7BE5A5FE29849BE6006BC1A6 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE5A5FD29849BE6006BC1A6 /* ScrumdingerApp.swift */; };
 		7BE5A60029849BE6006BC1A6 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE5A5FF29849BE6006BC1A6 /* MeetingView.swift */; };
 		7BE5A60229849BE7006BC1A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BE5A60129849BE7006BC1A6 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B1A4871298DD36700EF509E /* MeetingViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingViewHeader.swift; sourceTree = "<group>"; };
 		7BE5A5FA29849BE6006BC1A6 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BE5A5FD29849BE6006BC1A6 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		7BE5A5FF29849BE6006BC1A6 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				7BE5A5FF29849BE6006BC1A6 /* MeetingView.swift */,
+				7B1A4871298DD36700EF509E /* MeetingViewHeader.swift */,
 				7BF9407D2985628300F6F4BC /* CardView.swift */,
 				7BF9408129856C3400F6F4BC /* ScrumsView.swift */,
 				7BF9407F2985687D00F6F4BC /* LableStyle.swift */,
@@ -303,6 +306,7 @@
 				7BF9408F29888F3C00F6F4BC /* ThemePicker.swift in Sources */,
 				7BF9407B2985605700F6F4BC /* DailyScrum.swift in Sources */,
 				7BF940892985A08C00F6F4BC /* DetailView.swift in Sources */,
+				7B1A4872298DD36700EF509E /* MeetingViewHeader.swift in Sources */,
 				7BF9408B2985E1F800F6F4BC /* DetailEditView.swift in Sources */,
 				7BF9408229856C3400F6F4BC /* ScrumsView.swift in Sources */,
 				7BF9407929855E0000F6F4BC /* Theme.swift in Sources */,
