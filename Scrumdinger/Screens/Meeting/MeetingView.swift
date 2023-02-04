@@ -9,12 +9,13 @@ import SwiftUI
 
 struct MeetingView: View {
     @Binding var scrum: DailyScrum
+    @StateObject var scrumTimer = ScrumTimer()
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 16)
                 .fill(scrum.theme.mainColor)
             VStack {
-                MeetingViewHeader(secondElapsed: scrum.lengthInMinutes, secondRemaining: scrum.lengthInMinutes, theme: scrum.theme)
+                MeetingViewHeader(secondElapsed: scrumTimer.lengthInMinutes, secondRemaining: scrumTimer.lengthInMinutes, theme: scrum.theme)
                 Circle().strokeBorder(lineWidth: 25)
                 HStack {
                     Text("Speaker 1 of 3 ")
