@@ -7,15 +7,6 @@
 
 import SwiftUI
 
-struct ScrumProgressViewStyle: ProgressViewStyle {
-    let theme: Theme
-    func makeBody(configuration: Configuration) -> some View {
-        ZStack {
-            
-        }
-    }
-}
-
 struct MeetingViewHeader: View {
     let secondElapsed: Int
     let secondRemaining: Int
