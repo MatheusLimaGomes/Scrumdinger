@@ -14,11 +14,21 @@ struct ScrumdingerApp: App {
         WindowGroup {
             NavigationView {
                 ScrumsView(scrums: $store.scrums) {
-                    ScrumStore.save(scrums: store.scrums) { result in
-                        if case .failure(let error) = result {
-                            print("ERROR: \(error.localizedDescription)")
+                    Task {
+                        do {
+                            try await ScrumStore.save(scrums: store.scrums)
+                        } catch {
+                            print("ERROR - Saving Scrums: \(error.localizedDescription)")
                         }
                     }
+                }
+            }
+            .task {
+                do {
+                    store.scrums = try await ScrumStore.load()
+                } catch {
+                    print("ERROR - Loading Scrums: \(error.localizedDescription)")
+
                 }
             }
             .onAppear {
