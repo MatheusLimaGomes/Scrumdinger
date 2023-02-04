@@ -14,7 +14,7 @@ struct MeetingView: View {
             RoundedRectangle(cornerRadius: 16)
                 .fill(scrum.theme.mainColor)
             VStack {
-                MeetingViewHeader(secondElapsed: scrum.lengthInMinutes, secondRemaining: scrum.lengthInMinutes)
+                MeetingViewHeader(secondElapsed: scrum.lengthInMinutes, secondRemaining: scrum.lengthInMinutes, theme: scrum.theme)
                 Circle().strokeBorder(lineWidth: 25)
                 HStack {
                     Text("Speaker 1 of 3 ")
