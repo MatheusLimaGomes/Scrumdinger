@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7B1A4872298DD36700EF509E /* MeetingViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A4871298DD36700EF509E /* MeetingViewHeader.swift */; };
+		7B1A4872298DD36700EF509E /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A4871298DD36700EF509E /* MeetingHeaderView.swift */; };
 		7B1A4879298E9CB000EF509E /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A4877298E9BDE00EF509E /* ScrumProgressViewStyle.swift */; };
 		7B1A487C298E9E4700EF509E /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A487B298E9E4700EF509E /* ScrumTimer.swift */; };
 		7B1A487E298EA95E00EF509E /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A487D298EA95E00EF509E /* MeetingFooterView.swift */; };
@@ -47,7 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7B1A4871298DD36700EF509E /* MeetingViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingViewHeader.swift; sourceTree = "<group>"; };
+		7B1A4871298DD36700EF509E /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
 		7B1A4877298E9BDE00EF509E /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		7B1A487B298E9E4700EF509E /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		7B1A487D298EA95E00EF509E /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				7BE5A5FF29849BE6006BC1A6 /* MeetingView.swift */,
-				7B1A4871298DD36700EF509E /* MeetingViewHeader.swift */,
+				7B1A4871298DD36700EF509E /* MeetingHeaderView.swift */,
 				7B1A487D298EA95E00EF509E /* MeetingFooterView.swift */,
 			);
 			path = Meeting;
@@ -358,7 +358,7 @@
 				7B1A487C298E9E4700EF509E /* ScrumTimer.swift in Sources */,
 				7BF9407B2985605700F6F4BC /* DailyScrum.swift in Sources */,
 				7BF940892985A08C00F6F4BC /* DetailView.swift in Sources */,
-				7B1A4872298DD36700EF509E /* MeetingViewHeader.swift in Sources */,
+				7B1A4872298DD36700EF509E /* MeetingHeaderView.swift in Sources */,
 				7BF9408B2985E1F800F6F4BC /* DetailEditView.swift in Sources */,
 				7BF9408229856C3400F6F4BC /* ScrumsView.swift in Sources */,
 				7BF9407929855E0000F6F4BC /* Theme.swift in Sources */,
