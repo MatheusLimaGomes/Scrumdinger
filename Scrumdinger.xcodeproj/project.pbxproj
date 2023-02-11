@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7B0069522997E91100DDBD0E /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0069512997E91100DDBD0E /* MeetingTimerView.swift */; };
+		7B0069542997EEDB00DDBD0E /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0069532997EEDB00DDBD0E /* SpeakerArc.swift */; };
 		7B1A4872298DD36700EF509E /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A4871298DD36700EF509E /* MeetingHeaderView.swift */; };
 		7B1A4879298E9CB000EF509E /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A4877298E9BDE00EF509E /* ScrumProgressViewStyle.swift */; };
 		7B1A487C298E9E4700EF509E /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1A487B298E9E4700EF509E /* ScrumTimer.swift */; };
@@ -55,6 +56,7 @@
 
 /* Begin PBXFileReference section */
 		7B0069512997E91100DDBD0E /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
+		7B0069532997EEDB00DDBD0E /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
 		7B1A4871298DD36700EF509E /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
 		7B1A4877298E9BDE00EF509E /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		7B1A487B298E9E4700EF509E /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 				7BF9407D2985628300F6F4BC /* CardView.swift */,
 				7BF9407F2985687D00F6F4BC /* LableStyle.swift */,
 				7B1A4899298ED1E200EF509E /* ErrorView.swift */,
+				7B0069532997EEDB00DDBD0E /* SpeakerArc.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -402,6 +405,7 @@
 				7BE5A5FE29849BE6006BC1A6 /* ScrumdingerApp.swift in Sources */,
 				7BF9408D29888B2600F6F4BC /* ThemeView.swift in Sources */,
 				7BF9407E2985628300F6F4BC /* CardView.swift in Sources */,
+				7B0069542997EEDB00DDBD0E /* SpeakerArc.swift in Sources */,
 				7B1A4880298EB0E200EF509E /* AVPlayer+Ding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
