@@ -12,7 +12,8 @@ struct MeetingView: View {
     @Binding var scrum: DailyScrum
     @StateObject var scrumTimer = ScrumTimer()
     private var player: AVPlayer { AVPlayer.sharedDingPlayer }
-    
+    @StateObject var speechRecognizer = SpeechRecognizer()
+    @State private var isRecording = false
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 16)
@@ -36,10 +37,15 @@ struct MeetingView: View {
                 player.seek(to: .zero)
                 player.play()
             }
+            speechRecognizer.reset()
+            speechRecognizer.transcribe()
+            isRecording = true
             scrumTimer.startScrum()
         }
         .onDisappear {
             scrumTimer.stopScrum()
+            speechRecognizer.stopTranscribing()
+            isRecording = false
             let newHistory = History(attendees: scrum.attendees, lengthInMinutes: scrum.timer.secondsElapsed / 60)
             scrum.history.insert(newHistory, at: 0)
         }
